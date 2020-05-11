@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int centimeter;
+    float feet;
+    float inch;
+
+    printf("centimeter = ");
+    scanf("%d",&centimeter);
+
+    inch = 2.54*centimeter;
+    printf("\ninch = %f",inch);
+
+    feet = 12*inch;
+    printf("\nfeet = %f",feet);
+
+
+    return 0;
+}
