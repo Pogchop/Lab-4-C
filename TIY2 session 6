@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+   char c ='A';
+   char d = 'b';
+   printf("Enter Character: %c",c);
+   printf("\nASCII value = %d",c);
+   printf("\nEnter Chracter:%c",d);
+   printf("\nASCII value = %d",d);
+   return 0;
+
+
+    
+}
