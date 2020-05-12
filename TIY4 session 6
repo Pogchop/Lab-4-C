@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    char name [4] = {'M','A','R','K'};
+    int basic = 2500;
+    int daper = 55;
+    float bonper = 33.33;
+    float loandet = 250.00; 
+    float salary;
+    salary = basic + basic * daper/100 +bonper * basic/100 - loandet;
+    printf("Name");
+    putchar('\t');
+    printf("Basic");
+    putchar('\t');
+    printf("Salary");
+    putchar('\n');
+    printf("%s",name);
+    putchar('\t');
+    printf("%d",basic);
+    putchar('\t');
+    printf("%.0f",salary);
+
+    return 0;
+}
