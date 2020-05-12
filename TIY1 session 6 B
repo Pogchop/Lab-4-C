@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void main()
+{
+    int sum;
+    char  letter = 'C';
+    float discount =3;
+    float dump =5;
+    float discount_rate;
+    printf("sum=");
+    scanf("%d",&sum);
+    printf("Welcome\n");
+    printf("%c",letter);
+    printf("%f",discount);
+    printf("%.2f",dump);
+    printf("\ndiscount_rate=");
+    scanf("%f",&discount_rate);
+
+
+    
+}
