@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    char Firstname[20], Lastname[20];
+    printf("Input first name: ");
+    scanf("%s",&Firstname);
+    printf("Input last name: ");
+    scanf("%s",&Lastname);
+    printf("%s %s",Lastname,Firstname);
+    return 0;
+}
