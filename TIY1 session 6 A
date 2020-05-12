@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void main()
+{
+    int sum = 1;
+    char  letter = 'C';
+    float discount =3;
+    float dump =5;
+    printf("%d",sum);
+    printf("Welcome\n");
+    printf("%c",letter);
+    printf("%f",discount);
+    printf("%.2f",dump);
+
+
+    
+}
